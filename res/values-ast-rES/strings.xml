@@ -22,6 +22,7 @@
   <!-- The title displayed for unknown tag types -->
   <!-- The title displayed for an empty tag -->
   <!-- Button label indicating that the user wants to delete a tag -->
+  <string name="button_done">Fecho</string>
   <!-- String displayed for an action to send a text message to a phone number -->
   <!-- String displayed for an action to call a phone number -->
   <!-- Message for prompting on an empty tag -->
