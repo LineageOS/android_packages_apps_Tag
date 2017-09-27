@@ -21,7 +21,7 @@
     <string name="title_existing_tag" msgid="5656560272594190244">"टैग"</string>
     <string name="tag_unknown" msgid="2897956823877728783">"अज्ञात टैग प्रकार"</string>
     <string name="tag_empty" msgid="3726529819932095782">"खाली टैग"</string>
-    <string name="button_done" msgid="7048822758098308158">"पूरा हो गया"</string>
+    <string name="button_done" msgid="7048822758098308158">"हो गया"</string>
     <string name="action_text" msgid="577417996159152923">"<xliff:g id="PHONE_NUMBER">%s</xliff:g> पर मैसेज भेजें"</string>
     <string name="action_call" msgid="6226253647953184035">"<xliff:g id="PHONE_NUMBER">%s</xliff:g> को कॉल करें"</string>
     <string name="empty_tag_prompt" msgid="4206394383309956030">"यह टैग खाली है."</string>
