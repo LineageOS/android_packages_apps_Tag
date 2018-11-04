@@ -15,17 +15,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- The title of the NFC tag application -->
-  <!-- The title for the activity that shows a tag that was just scanned -->
-  <!-- The title for the activity that shows a tag that was stored from a past scan -->
-  <!-- The title displayed for unknown tag types -->
-  <!-- The title displayed for an empty tag -->
-  <!-- Button label indicating that the user wants to delete a tag -->
-  <!-- String displayed for an action to send a text message to a phone number -->
-  <!-- String displayed for an action to call a phone number -->
-  <!-- Message for prompting on an empty tag -->
-  <!-- Action description indicating the user can import a scanned vCard -->
-  <!-- String describing MIME content when it's shared with other application -->
-  <!-- Description string for vCard messages -->
-  <!-- Description string for CALL_PHONE permission denied -->
+    <!-- The title of the NFC tag application -->
+    <!-- The title for the activity that shows a tag that was just scanned -->
+    <!-- The title for the activity that shows a tag that was stored from a past scan -->
+    <!-- The title displayed for unknown tag types -->
+    <!-- The title displayed for an empty tag -->
+    <!-- Button label indicating that the user wants to delete a tag -->
+    <!-- String displayed for an action to send a text message to a phone number -->
+    <!-- String displayed for an action to call a phone number -->
+    <!-- Message for prompting on an empty tag -->
+    <!-- Action description indicating the user can import a scanned vCard -->
+    <!-- String describing MIME content when it's shared with other application -->
+    <!-- Description string for vCard messages -->
+    <!-- Description string for CALL_PHONE permission denied -->
 </resources>
