@@ -42,4 +42,5 @@
     <!-- Description string for CALL_PHONE permission denied -->
     <string name="call_phone_permission_denied">Mae ar yr ap hwn angen caniatâd mynediad i Ffôn er mwyn gwneud galwadau. Gellir rheoli caniatâd Tag yn y Gosodiadau.</string>
     <!-- Description string for READ_EXTERNAL_STORAGE permission denied -->
+    <string name="external_storage_permission_denied">Mae\'r ap hwn angen caniatâd i gael at y Storfa Allanol er mwyn cyrchu ffeiliau. Gellir rheoli caniatâd Tag yn y Gosodiadau.</string>
 </resources>
