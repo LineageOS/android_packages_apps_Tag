@@ -27,4 +27,5 @@
     <string name="import_vcard">Importar ^1</string>
     <string name="mime_display_name">Datos dende etiqueta NFC</string>
     <string name="vcard_title">Info de contautu pa ^1</string>
+    <string name="external_storage_permission_denied">Esta aplicación precisa\'l permisu d\'Almacenamientu Esternu p\'acceder a los ficheros. Pues xestionar el permisu d\'etiquetes n\'Axustes</string>
 </resources>
