@@ -16,7 +16,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" msgid="5128188288358721369">"ટૅગ્સ"</string>
+    <string name="app_name" msgid="5128188288358721369">"ટૅગ"</string>
     <string name="title_scanned_tag" msgid="4347835407095551450">"નવો ટેગ સંગ્રહિત કર્યો"</string>
     <string name="title_existing_tag" msgid="5656560272594190244">"ટેગ"</string>
     <string name="tag_unknown" msgid="2897956823877728783">"અજાણ્યો ટેગ પ્રકાર"</string>
