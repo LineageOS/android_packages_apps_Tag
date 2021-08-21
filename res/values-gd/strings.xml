@@ -26,5 +26,6 @@
     <string name="import_vcard">Ion-phortaich ^1</string>
     <string name="mime_display_name">Dàta o thaga NFC</string>
     <string name="vcard_title">Fiosrachadh conaltraidh airson ^1</string>
+    <string name="call_phone_permission_denied">Tha an aplacaid seo feumach air cead dhan fòn ach cuir i gairmean. ’S urrainn dhut ceadan nan tagaichean a shuidheachadh sna “Roghainnean”</string>
     <string name="external_storage_permission_denied">Tha an aplacaid seo feumach air cead dhan stòras air an taobh a-muigh ach an inntrig i faidhlichean. ’S urrainn dhut ceadan nan tagaichean a shuidheachadh sna “Roghainnean”</string>
 </resources>
