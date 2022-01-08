@@ -26,6 +26,6 @@
     <string name="import_vcard">Mewnforio ^1</string>
     <string name="mime_display_name">Data o dag NFC</string>
     <string name="vcard_title">Manylion cyswllt ar gyfer ^1</string>
-    <string name="call_phone_permission_denied">Mae ar yr ap hwn angen caniatâd mynediad i Ffôn er mwyn gwneud galwadau. Gellir rheoli caniatâd Tag yn y Gosodiadau.</string>
+    <string name="call_phone_permission_denied">Mae ar yr ap hwn angen caniatâd mynediad at Ffôn er mwyn gwneud galwadau. Gellir rheoli caniatâd Tag yn y Gosodiadau.</string>
     <string name="external_storage_permission_denied">Mae\'r ap hwn angen caniatâd i gael at y Storfa Allanol er mwyn cyrchu ffeiliau. Gellir rheoli caniatâd Tag yn y Gosodiadau.</string>
 </resources>
