@@ -17,10 +17,6 @@
 
 <resources>
 
-    <style name="AppTheme">
-        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
-    </style>
-
     <style name="record_title">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>

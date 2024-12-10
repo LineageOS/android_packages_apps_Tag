@@ -20,7 +20,6 @@ import com.android.apps.tag.message.NdefMessageParser;
 import com.android.apps.tag.message.ParsedNdefMessage;
 import com.android.apps.tag.record.ParsedNdefRecord;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.nfc.NdefMessage;
 import android.nfc.NfcAdapter;
@@ -33,18 +32,24 @@ import android.view.View.OnClickListener;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.activity.ComponentActivity;
+import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
+
 import java.util.List;
 
 /**
- * An {@link Activity} which handles a broadcast of a new tag that the device just discovered.
+ * An {@link ComponentActivity} which handles a broadcast of a new tag that
+ * the device just discovered.
  */
-public class TagViewer extends Activity implements OnClickListener {
+public class TagViewer extends ComponentActivity implements OnClickListener {
     static final String TAG = "TagViewer";
 
     LinearLayout mTagContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        EdgeToEdge.enable(this);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.tag_viewer);
@@ -83,7 +88,7 @@ public class TagViewer extends Activity implements OnClickListener {
     }
 
     void buildTagViews(NdefMessage msg) {
-        LayoutInflater inflater = LayoutInflater.from(this);
+        LayoutInflater inflater = getLayoutInflater();
         LinearLayout content = mTagContent;
 
         // Clear out any old views in the content area, for example if you scan two tags in a row.
@@ -112,7 +117,8 @@ public class TagViewer extends Activity implements OnClickListener {
     }
 
     @Override
-    public void onNewIntent(Intent intent) {
+    public void onNewIntent(@NonNull Intent intent) {
+        super.onNewIntent(intent);
         setIntent(intent);
         resolveIntent(intent);
     }
