@@ -1,4 +1,2 @@
-# Default code reviewers picked from top 3 or more developers.
-# Please update this list if you find better candidates.
-jackcwyu@google.com
-georgekgchang@google.com
+# Bug component: 48448
+include platform/packages/modules/Nfc:/OWNERS
