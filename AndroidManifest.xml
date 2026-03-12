@@ -41,7 +41,7 @@
             android:launchMode="singleTop"
             android:priority="-10"
             android:exported="true"
-            android:permission="android.permission.NFC"
+            android:permission="android.permission.DISPATCH_NFC_MESSAGE"
         >
             <!-- Offer to display anything with NDEF data -->
             <intent-filter>
